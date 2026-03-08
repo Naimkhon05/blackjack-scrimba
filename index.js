@@ -13,7 +13,7 @@ if (sum < 21) {
 
 let age = 18;
 if (age < 21) {
-  console.log("You cannot enter the club!");
+  document.getElementById("age").innerText = "You cannot enter the club!";
 } else {
-  console.log("Welcome!");
+  document.getElementById("age").innerText = "Welcome!";
 }
