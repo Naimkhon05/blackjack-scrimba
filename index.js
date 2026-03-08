@@ -10,3 +10,10 @@ if (sum < 21) {
 } else {
   console.log("You're out of the game!");
 }
+
+let age = 22;
+if (age < 21) {
+  console.log("You cannot enter the club!");
+} else {
+  console.log("Welcome!");
+}
