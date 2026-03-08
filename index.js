@@ -1,5 +1,5 @@
 let firstCard = 9;
-let secondCard = 10;
+let secondCard = 15;
 let sum = firstCard + secondCard;
 console.log(sum);
 let hasBlackJack = false;
@@ -14,6 +14,8 @@ if (sum <= 20) {
   console.log("You're out of the game!");
   isAlive = false;
 }
+console.log(hasBlackJack);
+console.log(isAlive);
 
 let age = 18;
 if (age < 21) {
