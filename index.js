@@ -10,6 +10,10 @@ let sumEl = document.querySelector("#sum-el");
 let cardsEl = document.querySelector("#cards-el");
 
 function startGame() {
+  renderGame();
+}
+
+function renderGame() {
   sumEl.textContent = "Sum: " + sum;
   cardsEl.textContent = "Cards: " + firstCard + " " + secondCard;
 
@@ -28,5 +32,5 @@ function startGame() {
 function newCard() {
   let card = 6;
   sum += card;
-  startGame();
+  renderGame();
 }
